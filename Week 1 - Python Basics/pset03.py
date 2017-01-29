@@ -38,4 +38,3 @@ for i in range (1, len(s)):
                
 print ("Longest substring in alphabetical order is: " + bestMatch)
 
-
