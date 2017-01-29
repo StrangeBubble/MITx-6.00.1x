@@ -1,20 +1,14 @@
-# edX MITx 6.00.1x
-# Introduction to Computer Science and Programming Using Python
-# Lecture 5, problem 4
+# Exercise: fourth power
 
-# The greatest common divisor of two positive integers is the largest integer
-# that divides each of them without remainder. For example:
-#
-# gcd(2, 12) = 2
-# gcd(6, 12) = 6
-# gcd(9, 12) = 3
-# gcd(17, 12) = 1
-#
-# Write an iterative function, gcdIter(a, b), that implements this idea.
-# One easy way to do this is to begin with a test value equal to the smaller
-# of the two input arguments, and iteratively reduce this test value by 1
-# until you either reach a case where the test divides both a and b
-# without remainder, or you reach 1.
+# (5/5 points)
+# ESTIMATED TIME TO COMPLETE: 2 minutes
+
+# Write a Python function, fourthPower, that takes in one number and returns that value raised to the fourth power.
+
+# You should use the square procedure that you defined in an earlier exercise exercise (you don't need to redefine square in this box;
+# when you call square, the grader will use our definition).
+
+# This function takes in one number and returns one number.
 
 def gcdIter(a, b):
     '''
