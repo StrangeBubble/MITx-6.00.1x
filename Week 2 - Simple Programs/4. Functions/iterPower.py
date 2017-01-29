@@ -7,9 +7,16 @@ def iterPower(base, exp):
     '''
 
     x = 1
-    for n in xrange(0, exp):
-        x *= base
+    if exp < 1:
+        return 1
+    while exp > 0:
+        exp-=1
+        x*=base
     return x
+
+print iterPower(6.61, 0)
+print iterPower(5.9, 10)
+print iterPower(-4.75, 8)
 
 print iterPower(3, 2)
 print iterPower(3, 5)
