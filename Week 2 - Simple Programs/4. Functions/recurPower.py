@@ -6,10 +6,14 @@ def recurPower(base, exp):
     returns: int or float, base^exp
     '''
     # Your code here
+    if exp < 1:
+        return 1
     if exp < 2:
         return base
     else:
         return base * recurPower(base, exp-1)
+
+print recurPower(5.39, 0)
 
 print recurPower(2, 1)
 print recurPower(20, 1)
